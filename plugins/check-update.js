@@ -53,7 +53,7 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/Mselachui03/MSELA-CHUI-BOT';
+    const githubRepo = 'https://github.com/loftxmd23/sir-loft';
 
     // Check update status
     let updateMessage = `✅ Your ꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂ bot is up-to-date!`;
