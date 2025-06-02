@@ -39,7 +39,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "255778018545",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Mr 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-TEACH",
+OWNER_NAME: process.env.OWNER_NAME || "loft",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』*",
 // add bot owner name    
