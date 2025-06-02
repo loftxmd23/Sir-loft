@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "✅", 
+    react: "🤍", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://files.catbox.moe/lxudmd.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓* 〕━━┈⊷
+            caption: `╭━━〔 *꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -40,14 +40,14 @@ async (conn, mek, m, { from }) => {
 ┃◈╭─┴────────────●●►
 
 ╰──────────────┈⊷
-> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH`, // Display the owner's details
+> 『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363305273910720@newsletter',
-                    newsletterName: '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓',
+                    newsletterJid: '120363398106360290@newsletter',
+                    newsletterName: '꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂',
                     serverMessageId: 143
                 }            
             }
