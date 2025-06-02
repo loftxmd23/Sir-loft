@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/Mselachui03/MSELA-CHUI-BOT/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/loftxmd23/sir-loft/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -56,9 +56,9 @@ cmd({
     const githubRepo = 'https://github.com/Mselachui03/MSELA-CHUI-BOT';
 
     // Check update status
-    let updateMessage = `✅ Your 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓 bot is up-to-date!`;
+    let updateMessage = `✅ Your ꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂ bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓 bot is outdated!
+      updateMessage = `🚀 Your ꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂ bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,10 +66,10 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* ꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH](https://github.com/Mselachui03)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [loft](https://github.com/loftxmd23)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
@@ -80,8 +80,8 @@ Use *.update* to update.`;
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363305273910720@newsletter',
-          newsletterName: '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH 🐯',
+          newsletterJid: '120363398106360290@newsletter',
+          newsletterName: '꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂',
           serverMessageId: 143
         }
       }
