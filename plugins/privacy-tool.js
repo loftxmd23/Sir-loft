@@ -36,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• match_last_seen - Match last seen
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-*Note:* Most commands are owner-only`;
+『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』`;
 
         await conn.sendMessage(
             from,
@@ -48,8 +48,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363305273910720@newsletter',
-                        newsletterName: "Privacy Settings",
+                        newsletterJid: '120363398106360290@newsletter',
+                        newsletterName: "꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂",
                         serverMessageId: 143
                     }
                 }
