@@ -55,8 +55,8 @@ _Email will expire after 24 hours_
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363305273910720@newsletter',
-                        newsletterName: 'TempMail Service',
+                        newsletterJid: '120363398106360290@newsletter',
+                        newsletterName: '꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂',
                         serverMessageId: 101
                     }
                 }
