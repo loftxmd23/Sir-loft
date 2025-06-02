@@ -43,7 +43,7 @@ OWNER_NAME: process.env.OWNER_NAME || "loft",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/15vem5.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/n40mdn.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> 『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』",
 // add alive msg here 
