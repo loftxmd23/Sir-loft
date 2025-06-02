@@ -3,10 +3,10 @@ const axios = require('axios');
 
 cmd({
     pattern: "ai",
-    alias: ["bot", "tohidai", "gpt", "gpt4", "bing"],
+    alias: ["bot", "loft", "gpt", "gpt4", "bing"],
     desc: "Chat with an AI model",
     category: "ai",
-    react: "🤖",
+    react: "🚀",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
