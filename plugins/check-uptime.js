@@ -43,7 +43,7 @@ ${config.DESCRIPTION}`;
 
         // Style 4: Code Style
         const style4 = `┌──────────────────────┐
-│  🐯 UPTIME STATUS 🐯  │
+│   UPTIME STATUS   │
 ├──────────────────────┤
 │ • Time: ${uptime}
 │ • Started: ${startTime.toLocaleString()}
