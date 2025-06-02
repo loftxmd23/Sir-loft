@@ -6,7 +6,7 @@ const { cmd } = require('../command');
 
 cmd({
   pattern: "sss",
-  alias: ["ssweb"],
+  alias: ["web"],
   react: "💫",
   desc: "Download screenshot of a given link.",
   category: "other",
@@ -31,14 +31,14 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*WEB SS DOWNLOADER*\n\n> *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓*",
+      caption: "*WEB SS DOWNLOADER*\n\n> *『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363305273910720@newsletter',
-          newsletterName: "𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓𝐄𝐂𝐇 🐯",
+          newsletterJid: '120363398106360290@newsletter',
+          newsletterName: "꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂",
           serverMessageId: 143,
         },
       },
