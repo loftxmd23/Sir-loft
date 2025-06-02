@@ -1,6 +1,6 @@
 FROM node:lts-buster
-RUN git clone https://github.com/Mselachui03/MSELA-CHUI-BOT/root/Mr 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH
-WORKDIR /root/Mr 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH
+RUN git clone https://github.com/loftxmd23/Loft-xmd-s24/root/Mr ꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂
+WORKDIR /root/Mr ꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂
 RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
 COPY . .
 EXPOSE 9090
