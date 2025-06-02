@@ -6,12 +6,12 @@ cmd({
     pattern: "repo",
     alias: ["sc", "script", "info"],
     desc: "Fetch GitHub repository information",
-    react: "📂",
+    react: "💋",
     category: "info",
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Mselachui03/MSELA-CHUI-BOT';
+    const githubRepoURL = 'https://github.com/loftxmd23/Loft-xmd-s24';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -179,8 +179,8 @@ ${repoData.description || 'No description provided'}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363305273910720@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓',
+                    newsletterJid: '120363398106360290@newsletter',
+                    newsletterName: config.OWNER_NAME || '꧁༒☬ 𝕷𝕺𝕱𝕿-𝕏𝕸𝕯 ☬༒꧂',
                     serverMessageId: 143
                 }
             }
