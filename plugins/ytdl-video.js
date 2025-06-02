@@ -44,7 +44,7 @@ cmd({
             caption: `*${title}*`
         }, { quoted: mek });
 
-        await reply(`✅ *${title}* downloaded successfully!`);
+        await reply(`✅ *${title}* 『 ⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝕾𝖎𝖗 𝕷𝖔𝖋𝖙⚡ 』`);
 
     } catch (error) {
         console.error(error);
