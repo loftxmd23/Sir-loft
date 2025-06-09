@@ -80,8 +80,8 @@ cmd({
             try {
                 await new Promise(resolve => setTimeout(resolve, 1000)); // Small delay after image
                 await conn.sendMessage(from, {
-                    audio: { url: 'https://files.catbox.moe/mqdb3h.mp3' },
-                    mimetype: 'audio/mp3',
+                    audio: { url: 'https://github.com/loftxmd23/Loft-base/raw/refs/heads/main/autovoice/menunew.m4a' },
+                    mimetype: 'audio/mp4',
                     ptt: true,
                 }, { quoted: mek });
             } catch (e) {
