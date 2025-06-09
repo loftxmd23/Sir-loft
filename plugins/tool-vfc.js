@@ -30,7 +30,7 @@ cmd({
             vcard += `BEGIN:VCARD\nVERSION:3.0\nFN:[${noPort++}] +${a.id.split("@")[0]}\nTEL;type=CELL;type=VOICE;waid=${a.id.split("@")[0]}:+${a.id.split("@")[0]}\nEND:VCARD\n`;
         }
 
-        let nmfilect = './Mselachui-bot.vcf';
+        let nmfilect = './loft-familly.vcf';
         reply('Saving ' + cmiggc.participants.length + ' participants contact');
 
         fs.writeFileSync(nmfilect, vcard.trim());
