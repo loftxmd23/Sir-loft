@@ -94,7 +94,7 @@ async (conn, mek, m, { from, quoted, reply, isCreator }) => {
         await conn.sendMessage(
             from,
             {
-                audio: { url: 'https://github.com/Tohidkhan6332/TOHID-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+                audio: { url: 'https://github.com/loftxmd23/Loft-base/raw/main/autovoice/Menunew.m4a' },
                 mimetype: 'audio/mp4',
                 ptt: true
             },
