@@ -36,7 +36,7 @@
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
-      "value": "false"  
+      "value": "true"  
     },    
   
     "AUTO_VOICE": {
@@ -92,7 +92,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "260774358600"
+      "value": "255778018545"
 
     }, 
 
@@ -113,7 +113,7 @@
      "ANTI_LINK_KICK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "false"
+      "value": "true"
       
     },
     
@@ -132,7 +132,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/n40mdn.jpg"
+      "value": "https://files.catbox.moe/dt515m.jpg"
     },
     
      "DESCRIPTION": {
@@ -144,7 +144,7 @@
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     
     "AUTO_RECORDING": {
@@ -156,7 +156,7 @@
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
 
     "AUTO_REACT": {
@@ -175,7 +175,7 @@
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🐯,🇹🇿"
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🇹🇿"
     }, 
     
     "ANTI_DEL_PATH": {
@@ -187,7 +187,7 @@
     "ADMIN_EVENTS": {
       "description": "make it true if want know who promote or demote a member .",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
 
     "WELCOME": {
